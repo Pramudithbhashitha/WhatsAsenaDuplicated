@@ -39,7 +39,7 @@ Asena.addCommand({pattern: 'meme ?(.*)', fromMe: true, desc: Lang.MEMES_DESC}, (
     
 	memeMaker({
         image: location,         
-        outfile: 'asena-meme.png',
+        outfile: 'whatbot-meme.png',
         topText: topText,
         bottomText: bottomText,
     }, async function(err) {
